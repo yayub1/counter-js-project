@@ -1,0 +1,79 @@
+body{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #081206;
+}
+.mainbody{
+   
+    text-align: center;
+    border: 2px solid #908e8e;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    top: 100px;
+    border-radius: 50%;
+   background-color: rgb(224,255,255);
+   box-shadow: 10px 10px 5px;
+  
+
+}
+
+button{
+    width: 130px;
+    height: 30px;
+    text-align: center;
+    position: relative;
+    top: 150px;
+    background-color: rgb(94, 140, 215);
+    color: aliceblue;
+    border-radius: 20px;
+    
+  
+ 
+   
+    
+}
+button:hover{
+    text-decoration: overline;
+    box-shadow: 10px -10px rgb(173, 230, 182);
+ 
+}
+#countable{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family:  Helvetica;
+    position: relative;
+    top: 100px;
+}
+#countable:hover{
+    color: aquamarine;
+}
+ .rotate{
+    width: 550px;
+    height: 550px;
+    border: 2px solid green;
+   
+    border-radius: 50%;
+    position: relative;
+    top: -425px;
+    left: -20px;
+   z-index: -2;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(92, 92, 98) 35%, rgb(26, 154, 180) 100%);
+
+}
+@media screen and (min-width: 400px){
+    
+    
+}
+.rotate {
+    display: inline-block;
+    animation: rotate 2s linear infinite;
+  
+}
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(360deg);
+    }
